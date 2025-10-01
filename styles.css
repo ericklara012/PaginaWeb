@@ -1,12 +1,20 @@
-.articulo1 {
-    color: blue;
+body {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
 }
 
-.articulo2 {
-    color: red;
+.container {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
 }
 
-.articulo3 {
-    color:peru
+.box {
+    flex: 1;
+    padding: 10px;
+    background-color: darkgrey;
+    border-radius: 6px;
+
 }
-  
